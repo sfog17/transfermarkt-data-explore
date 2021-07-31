@@ -2,14 +2,14 @@
 
 ## Dependencies
 
-Developed with Python 3.8.3, see [requirements.txt](requirements.txt)for the list of packages.
+Developed with Python 3.8.3, see [requirements.txt](requirements.txt) for the list of packages.
 
 ## Description
 
-This script extract data from transfermarkt,
+This script extracts data from transfermarkt,
 in order to analyse the relationship between country of birth and national team
 
-The transformed data is output to the [results\nationality_players.csv](results\nationality_players.csv) file.
+The transformed data is output to the [nationality_players.csv](results/nationality_players.csv) file.
 
 The csv can be explored using Excel (with Pivot tables) or Jupyter Notebooks.
 
@@ -62,9 +62,9 @@ Central African Republic     6
 DR Congo                     5
 ```
 
-The map of the former French colonies almost appear straight for this query.
-Most of the players are second-generation immigrants who play for their parents'
-country to get more chance to join international competitions such as the Africa Cup of Nations or the World Cup.
+The map of former French colonies appears almost instantly!
+Most of the players are second-generation immigrants who play for the team of their parents
+to get an opportunity to join international competitions such as the Africa Cup of Nations or the World Cup.
 
 Fun fact: there are more players born in France in the Comorian team than in the French team!
 
@@ -123,6 +123,6 @@ Cape Verde      2
 Turkey          2
 ```
 
-The list reveals shows connection to Dutch overseas territories (Curacao, Aruba),
-former colony (Suriname) and more recent immigrant's countries (Afghanistan, Somalia,
+The list reveals shows connections to Dutch overseas territories (Curacao, Aruba),
+former colony (Suriname), but also ties to countries of more recent immigration (Afghanistan, Somalia,
 Morocco, Cape Verde, Turkey).
