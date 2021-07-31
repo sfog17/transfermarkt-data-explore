@@ -1,0 +1,6 @@
+# dev
+venv/
+.vscode/
+
+# data
+*.html
